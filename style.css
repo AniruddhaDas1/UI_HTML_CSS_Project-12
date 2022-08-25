@@ -1,0 +1,701 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navebar */
+.nHero{
+    height: 100vh;
+    background-color: #4f515c;
+    width: 100vw;
+    padding-top: 1.5em;
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 40vw;
+    padding-left: 5em;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70vw;
+}
+.nav-list{
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.li-item{
+    list-style-type: none;
+    display: flex;
+}
+.btn{
+    padding: 0px 3em;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: -0.5em;
+}
+
+/* Hero Section */
+.sec-01{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    margin-top: 3em;
+    margin-left: 10em;
+}
+.sec-01 .img{
+    height: 70vh;
+    width: 30vw;
+    background: url(./assets/pexels-fauxels-3183197.jpg) no-repeat center;
+    background-size: cover;
+}
+.right{
+    width: 40vw;
+    margin-left: 7em;
+}
+.right h1{
+    font-size: 3.5em;
+    margin-top: -1em;
+    letter-spacing: 1.5px;
+}
+.right p{
+    font-size: 1.1em;
+    letter-spacing: 1.5px;
+    width: 32vw;
+    margin-top: 1.2em;
+    margin-bottom: 1.5em;
+}
+.input{
+    margin-top: 1.5em;
+    border:1px solid #fff;
+    /* padding: .4em; */
+    background-color: #fff;
+    color: black;
+    width: 29vw;
+}
+.fa-solid{
+    margin-left: .5em;
+}
+.email{
+    border: none;
+    margin-left: .5em;
+}
+.green-btn{
+    background-color: #08b16a;
+    padding: .9em 3.5em;
+    margin-top: 1px;
+    margin-left: 38px;
+}
+/* Stats */
+.stats{
+    margin-top: 4em;
+    font-size: 2em
+}
+.heading{
+    font-size: 1.5em;
+    width: 30vw;
+    text-align: center;
+}
+.sec-02{
+    text-align: center;
+}
+
+.sec-02 table{
+    margin-left: 3em;
+    margin-bottom: 2em;
+    width: 80vw;
+}
+.sec-02 h1{
+    width: 40vw;
+    margin-left: 8em;
+}
+.sec-02 table tr th{
+    font-size: 1.5em;
+    margin: 1em;
+    padding: 1em;
+    margin-bottom: .3em;
+    padding-bottom: 0.3em;
+}
+.sec-02 table tr td{
+    font-size: .6em;
+    font-weight: 700;
+    color: #4f515c;
+}
+/* Video Image */
+.vid-img{
+    width: 90vw;
+    height: 90vh;
+    background: url(./assets/pexels-fauxels-3184325.jpg) no-repeat ;
+    background-size: cover;
+    margin-left: 2em;
+    margin-bottom: 4em;
+}
+/* Description Cards */
+.card-heading{
+    font-size: 3.5em;
+    width: 40vw;
+    text-align: center;
+    margin-left: 7em;
+    margin-bottom: 1em;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+}
+/* Card 1 */
+.card-01{
+    margin-left: 7em;
+    margin-bottom: 4em;
+}
+.card-01-txt{
+    width: 40vw;
+}
+.card-01-txt h1{
+    width: 40vw;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    margin-top: 3em;
+    padding-bottom: 1em;
+}
+.card-01-txt p{
+    width: 35vw;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    padding-bottom: 1em;
+}
+.card-01-btn{
+    margin-left: 0%;
+    padding-bottom: 1em;
+}
+/* Card 2 */
+.card-02{
+    margin-left: 7em;
+    margin-bottom: 4em;
+}
+.card-02-txt{
+    width: 40vw;
+    margin-left: 4em;
+}
+.card-02-txt h1{
+    width: 40vw;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    margin-top: 3em;
+    padding-bottom: 1em;
+}
+.card-02-txt p{
+    width: 35vw;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    padding-bottom: 1em;
+}
+.card-02-btn{
+    margin-left: 0%;
+    padding-bottom: 1em;
+}
+/* Card 3 */
+.card-03{
+    margin-left: 7em;
+    margin-bottom: 4em;
+}
+.card-03-txt{
+    width: 40vw;
+}
+.card-03-txt h1{
+    width: 40vw;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    margin-top: 3em;
+    padding-bottom: 1em;
+}
+.card-03-txt p{
+    width: 35vw;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    padding-bottom: 1em;
+}
+.card-03-btn{
+    margin-left: 0%;
+    padding-bottom: 1em;
+}
+
+/* Card Images */
+.card-01-img{
+    width: 39vw;
+    height: 85vh;
+    background: url(./assets/pexels-fauxels-3184405.jpg) no-repeat right;
+    background-size: cover;
+}
+.card-02-img{
+    width: 39vw;
+    height: 85vh;
+    background: url(./assets/pexels-fauxels-3184603.jpg) no-repeat top;
+    background-size: cover;
+}
+.card-03-img{
+    width: 39vw;
+    height: 85vh;
+    background: url(./assets/pexels-linkedin-sales-navigator-2182969.jpg) no-repeat center;
+    background-size: cover;
+}
+/* Teams */
+.team{
+    margin-bottom: 3em;
+}
+.team-top{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin-left: 8em;
+}
+.team-top h1{
+    width: 30vw;
+    font-size: 2.5em;
+}
+.team-top p{
+    width: 40vw;
+    font-size: 1.3em;
+    margin-left: 8em;
+    margin-top: 0.3em;
+}
+/* Team Image */
+.team-img1{
+    width: 25vw;
+    height: 67vh;
+    background: url(./assets/Amera-Amanda.jpg) no-repeat;
+    background-size: cover;
+}
+.team-img2{
+    width: 25vw;
+    height: 67vh;
+    background: url(./assets/Lucas\ Podolski.jpg) no-repeat;
+    background-size: cover;
+}
+.team-img3{
+    width: 25vw;
+    height: 67vh;
+    background: url(./assets/Leny\ Marissa\ Nasution.jpg) no-repeat;
+    background-size: cover;
+}
+/* Team Card */
+.team-card{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3em;
+    margin-left: 5em;
+    margin-top: 3em;
+}
+.t-card-01{
+    display: flex;
+    flex-direction: column;
+}
+.t-card-02{
+    display: flex;
+    flex-direction: column;
+}
+.t-card-03{
+    display: flex;
+    flex-direction: column;
+}
+.smore-btn{
+    margin-left: 45em;
+}
+.team-card div h1{
+    margin-top: 1em;
+}
+.team-card div p{
+    width: 25vw;
+    margin-top: 1em;
+    font-size: 1em;
+    color: #4f515c;
+}
+/* Footer */
+.footer{
+    background-color: black;
+    color: #fff;
+}
+.f-head{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5em;
+    padding-left: 7em;
+}
+.f-head img{
+    width: 120px;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50em;
+    margin-top: 1em;
+}
+.social-media p{
+    margin-right: 5px;
+}
+.social-media p a{
+    background-color: #b0b0b651;
+    border-radius: 100%;
+    padding: .5em;
+    align-items: center;
+}
+.social-media p i{
+    color: #fff;
+    width:12px
+}
+.footer hr{
+    width: 80vw;
+    background-color: #4f515c;
+    margin-left: 7em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.f-content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7em;
+    padding-bottom: 3em;
+}
+.fcol{
+    margin-right: 3.8em;
+}
+.list-teams{
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+
+
+/* Mobile Responsive */
+
+@media screen and (max-width: 680px) {
+   
+    /* Navebar */
+.nHero{
+    height: 100vh;
+    background-color: #4f515c;
+    width: 100vw;
+    padding-top: 1.5em;
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 40vw;
+    padding-left: 5em;
+}
+.nav-items{
+    display: none;
+}
+
+
+/* Hero Section */
+.sec-01{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    margin-top: 3em;
+    margin-left: 5em;
+}
+.sec-01 .img{
+    height: 40vh;
+    width: 80vw;
+    background: url(./assets/pexels-fauxels-3183197.jpg) no-repeat center;
+    background-size: cover;
+}
+.right{
+    width: 70vw;
+    margin-left: .5em;
+    margin-top: 3em;
+}
+.right h1{
+    font-size: 1.5em;
+    margin-top: -1em;
+    letter-spacing: 1.5px;
+}
+.right p{
+    font-size: 1.1em;
+    letter-spacing: 1.5px;
+    width: 70vw;
+    margin-top: 1.2em;
+    margin-bottom: 1.5em;
+}
+.input{
+    margin-top: 1.5em;
+    border:1px solid #fff;
+    /* padding: .4em; */
+    background-color: #fff;
+    color: black;
+    width: 370px;
+}
+.fa-solid{
+    margin-left: .5em;
+}
+.email{
+    border: none;
+    margin-left: .5em;
+}
+.green-btn{
+    background-color: #08b16a;
+    padding: .9em 3.5em;
+    margin-top: 1px;
+    margin-left: 1em;
+}
+/* Stats */
+.stats{
+    margin-top: 2em;
+    font-size: 2em
+}
+.heading{
+    font-size: 1.5em;
+    width: 30vw;
+    text-align: center;
+}
+.sec-02{
+    text-align: center;
+}
+
+.sec-02 table{
+    margin-left: 1em;
+    margin-bottom: 2em;
+    width: 80vw;
+}
+.sec-02 h1{
+    width: 60vw;
+    margin-left: 2.5em;
+    font-size: 40px;
+}
+
+.sec-02 table tr th{
+    font-size: 20px;
+    margin: 1em;
+    padding: 1em;
+    margin-bottom: .3em;
+    padding-bottom: 0.3em;
+}
+.sec-02 table tr td{
+    font-size: 14px;
+    font-weight: 700;
+    color: #4f515c;
+}
+/* Video Image */
+.vid-img{
+    width: 90vw;
+    height: 50vh;
+    background: url(./assets/pexels-fauxels-3184325.jpg) no-repeat ;
+    background-size: cover;
+    margin-left: .5em;
+    margin-bottom: 2em;
+}
+/* Description Cards */
+.card-heading{
+    font-size: 40px;
+    width: 60vw;
+    text-align: center;
+    margin-left: 3em;
+    margin-bottom: 1em;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+}
+/* Card 1 */
+.card-01{
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+.card-01-txt{
+    width: 40vw;
+}
+.card-01-txt h1{
+    width: 40vw;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 1em;
+    padding-bottom: 1em;
+}
+.card-01-txt p{
+    width: 35vw;
+    font-size: 12px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    padding-bottom: 1em;
+}
+.card-01-btn{
+    margin-left: 0%;
+    padding-bottom: 1em;
+}
+/* Card 2 */
+.card-02{
+    margin-left: 3em;
+    margin-bottom: 2em;
+}
+.card-02-txt{
+    width: 40vw;
+    margin-left: 4em;
+}
+.card-02-txt h1{
+    width: 40vw;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 1em;
+    padding-bottom: 1em;
+}
+.card-02-txt p{
+    width: 35vw;
+    font-size: 12px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    padding-bottom: 1em;
+}
+.card-02-btn{
+    margin-left: 0%;
+    padding-bottom: 1em;
+}
+/* Card 3 */
+.card-03{
+    margin-left: 2em;
+    margin-bottom: 4em;
+}
+.card-03-txt{
+    width: 40vw;
+}
+.card-03-txt h1{
+    width: 40vw;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 1em;
+    padding-bottom: 1em;
+}
+.card-03-txt p{
+    width: 35vw;
+    font-size: 12px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    padding-bottom: 1em;
+}
+.card-03-btn{
+    margin-left: 0%;
+    padding-bottom: 1em;
+}
+
+/* Card Images */
+.card-01-img{
+    width: 39vw;
+    height: 45vh;
+    background: url(./assets/pexels-fauxels-3184405.jpg) no-repeat right;
+    background-size: cover;
+}
+.card-02-img{
+    width: 39vw;
+    height: 45vh;
+    background: url(./assets/pexels-fauxels-3184603.jpg) no-repeat top;
+    background-size: cover;
+}
+.card-03-img{
+    width: 39vw;
+    height: 45vh;
+    background: url(./assets/pexels-linkedin-sales-navigator-2182969.jpg) no-repeat center;
+    background-size: cover;
+}
+/* Teams */
+.team{
+    margin-bottom: 3em;
+}
+.team-top{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin-left: 2em;
+}
+.team-top h1{
+    width: 30vw;
+    font-size: 20px;
+}
+.team-top p{
+    width: 40vw;
+    font-size: 12px;
+    margin-left: 8em;
+    margin-top: 0.3em;
+}
+/* Team Image */
+.team-img1{
+    width: 25vw;
+    height: 67vh;
+    background: url(./assets/Amera-Amanda.jpg) no-repeat center;
+    background-size: cover;
+}
+.team-img2{
+    width: 25vw;
+    height: 67vh;
+    background: url(./assets/Lucas\ Podolski.jpg) no-repeat center;
+    background-size: cover;
+}
+.team-img3{
+    width: 25vw;
+    height: 67vh;
+    background: url(./assets/Leny\ Marissa\ Nasution.jpg) no-repeat center;
+    background-size: cover;
+}
+/* Team Card */
+.team-card{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-top: 3em;
+}
+.t-card-01{
+    display: flex;
+    flex-direction: column;
+}
+.t-card-02{
+    display: flex;
+    flex-direction: column;
+}
+.t-card-03{
+    display: flex;
+    flex-direction: column;
+}
+.smore-btn{
+    margin-left: 45em;
+}
+.team-card div h1{
+    margin-top: 1em;
+}
+.team-card div p{
+    width: 25vw;
+    margin-top: 1em;
+    font-size: 1em;
+    color: #4f515c;
+}
+/* Footer */
+.footer{
+    display: none;
+}
+
+
+}
